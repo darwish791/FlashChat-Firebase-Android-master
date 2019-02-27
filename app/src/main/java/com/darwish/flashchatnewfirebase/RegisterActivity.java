@@ -144,7 +144,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (!task.isSuccessful()) {
                     Log.d("FlashChat", "user creation failed");
-                    showErrorDialog("Registration attempt failed");
+                    showErrorDialog("Registration attempt failed ");
                 } else {
                     saveDisplayName();
                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
